@@ -5,5 +5,6 @@
 
 import Foundation
 
-class HomeViewModel {
+class HomeViewModel: ObservableObject {
+    @Published var selectedTab: Tab
 }
