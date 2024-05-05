@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323A6B432BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A6B422BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift */; };
 		3257D5EC2BDF6F7600E520EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257D5EB2BDF6F7600E520EB /* AppDelegate.swift */; };
 		3257D5EE2BDF6F7600E520EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257D5ED2BDF6F7600E520EB /* SceneDelegate.swift */; };
-		3257D5F02BDF6F7600E520EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257D5EF2BDF6F7600E520EB /* ViewController.swift */; };
-		3257D5F32BDF6F7600E520EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3257D5F12BDF6F7600E520EB /* Main.storyboard */; };
 		3257D5F52BDF6F7700E520EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3257D5F42BDF6F7700E520EB /* Assets.xcassets */; };
 		3257D5F82BDF6F7700E520EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3257D5F62BDF6F7700E520EB /* LaunchScreen.storyboard */; };
+		3257D6002BDF71E100E520EB /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3257D5FF2BDF71E100E520EB /* Splash.storyboard */; };
+		3257D6022BDF721A00E520EB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257D6012BDF721A00E520EB /* SplashViewController.swift */; };
+		32629FD82BE0EEC800D5F50C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 32629FD72BE0EEC800D5F50C /* Lottie */; };
+		32629FDB2BE2244E00D5F50C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32629FDA2BE2244E00D5F50C /* Images.xcassets */; };
+		32629FDD2BE2261500D5F50C /* CCImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32629FDC2BE2261500D5F50C /* CCImages.swift */; };
+		32629FDF2BE2274C00D5F50C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32629FDE2BE2274C00D5F50C /* Colors.xcassets */; };
+		32629FE12BE22A1800D5F50C /* CCColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32629FE02BE22A1800D5F50C /* CCColor.swift */; };
+		32629FE32BE22B5000D5F50C /* CCFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32629FE22BE22B5000D5F50C /* CCFont.swift */; };
+		32629FE52BE39D6400D5F50C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32629FE42BE39D6400D5F50C /* Home.storyboard */; };
+		32629FE72BE39D8C00D5F50C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32629FE62BE39D8C00D5F50C /* HomeViewController.swift */; };
+		328DD85B2BE4BC9D00EC9D85 /* HomeProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD85A2BE4BC9D00EC9D85 /* HomeProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		323A6B422BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBannerCollectionViewCell.swift; sourceTree = "<group>"; };
 		3257D5E82BDF6F7600E520EB /* Ccommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ccommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3257D5EB2BDF6F7600E520EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3257D5ED2BDF6F7600E520EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3257D5EF2BDF6F7600E520EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3257D5F22BDF6F7600E520EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3257D5F42BDF6F7700E520EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3257D5F72BDF6F7700E520EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3257D5F92BDF6F7700E520EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3257D5FF2BDF71E100E520EB /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		3257D6012BDF721A00E520EB /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		32629FDA2BE2244E00D5F50C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32629FDC2BE2261500D5F50C /* CCImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCImages.swift; sourceTree = "<group>"; };
+		32629FDE2BE2274C00D5F50C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		32629FE02BE22A1800D5F50C /* CCColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCColor.swift; sourceTree = "<group>"; };
+		32629FE22BE22B5000D5F50C /* CCFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCFont.swift; sourceTree = "<group>"; };
+		32629FE42BE39D6400D5F50C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		32629FE62BE39D8C00D5F50C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		328DD85A2BE4BC9D00EC9D85 /* HomeProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32629FD82BE0EEC800D5F50C /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,64 @@
 		3257D5EA2BDF6F7600E520EB /* Ccommerce */ = {
 			isa = PBXGroup;
 			children = (
-				3257D5EB2BDF6F7600E520EB /* AppDelegate.swift */,
-				3257D5ED2BDF6F7600E520EB /* SceneDelegate.swift */,
-				3257D5EF2BDF6F7600E520EB /* ViewController.swift */,
-				3257D5F12BDF6F7600E520EB /* Main.storyboard */,
-				3257D5F42BDF6F7700E520EB /* Assets.xcassets */,
-				3257D5F62BDF6F7700E520EB /* LaunchScreen.storyboard */,
+				32629FEB2BE3A5A900D5F50C /* Delegates */,
+				32629FD92BE2241F00D5F50C /* DesignSource */,
+				32629FE82BE3A56B00D5F50C /* Feature */,
 				3257D5F92BDF6F7700E520EB /* Info.plist */,
 			);
 			path = Ccommerce;
+			sourceTree = "<group>";
+		};
+		32629FD92BE2241F00D5F50C /* DesignSource */ = {
+			isa = PBXGroup;
+			children = (
+				3257D5F42BDF6F7700E520EB /* Assets.xcassets */,
+				32629FDA2BE2244E00D5F50C /* Images.xcassets */,
+				32629FDC2BE2261500D5F50C /* CCImages.swift */,
+				32629FDE2BE2274C00D5F50C /* Colors.xcassets */,
+				32629FE02BE22A1800D5F50C /* CCColor.swift */,
+				32629FE22BE22B5000D5F50C /* CCFont.swift */,
+			);
+			path = DesignSource;
+			sourceTree = "<group>";
+		};
+		32629FE82BE3A56B00D5F50C /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				32629FEA2BE3A58A00D5F50C /* Splash */,
+				32629FE92BE3A58600D5F50C /* Home */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		32629FE92BE3A58600D5F50C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				32629FE42BE39D6400D5F50C /* Home.storyboard */,
+				32629FE62BE39D8C00D5F50C /* HomeViewController.swift */,
+				323A6B422BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift */,
+				328DD85A2BE4BC9D00EC9D85 /* HomeProductCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		32629FEA2BE3A58A00D5F50C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				3257D5F62BDF6F7700E520EB /* LaunchScreen.storyboard */,
+				3257D5FF2BDF71E100E520EB /* Splash.storyboard */,
+				3257D6012BDF721A00E520EB /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		32629FEB2BE3A5A900D5F50C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3257D5EB2BDF6F7600E520EB /* AppDelegate.swift */,
+				3257D5ED2BDF6F7600E520EB /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,9 @@
 			dependencies = (
 			);
 			name = Ccommerce;
+			packageProductDependencies = (
+				32629FD72BE0EEC800D5F50C /* Lottie */,
+			);
 			productName = Ccommerce;
 			productReference = 3257D5E82BDF6F7600E520EB /* Ccommerce.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 3257D5DF2BDF6F7600E520EB;
+			packageReferences = (
+				32629FD62BE0EEC800D5F50C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 3257D5E92BDF6F7600E520EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +200,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32629FE52BE39D6400D5F50C /* Home.storyboard in Resources */,
 				3257D5F82BDF6F7700E520EB /* LaunchScreen.storyboard in Resources */,
+				32629FDB2BE2244E00D5F50C /* Images.xcassets in Resources */,
 				3257D5F52BDF6F7700E520EB /* Assets.xcassets in Resources */,
-				3257D5F32BDF6F7600E520EB /* Main.storyboard in Resources */,
+				32629FDF2BE2274C00D5F50C /* Colors.xcassets in Resources */,
+				3257D6002BDF71E100E520EB /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +216,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3257D5F02BDF6F7600E520EB /* ViewController.swift in Sources */,
+				32629FDD2BE2261500D5F50C /* CCImages.swift in Sources */,
+				328DD85B2BE4BC9D00EC9D85 /* HomeProductCollectionViewCell.swift in Sources */,
 				3257D5EC2BDF6F7600E520EB /* AppDelegate.swift in Sources */,
+				32629FE72BE39D8C00D5F50C /* HomeViewController.swift in Sources */,
+				32629FE12BE22A1800D5F50C /* CCColor.swift in Sources */,
+				32629FE32BE22B5000D5F50C /* CCFont.swift in Sources */,
 				3257D5EE2BDF6F7600E520EB /* SceneDelegate.swift in Sources */,
+				3257D6022BDF721A00E520EB /* SplashViewController.swift in Sources */,
+				323A6B432BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3257D5F12BDF6F7600E520EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3257D5F22BDF6F7600E520EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3257D5F62BDF6F7700E520EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +373,7 @@
 				INFOPLIST_FILE = Ccommerce/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +383,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.sb.Ccommerce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,7 +405,7 @@
 				INFOPLIST_FILE = Ccommerce/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,6 +415,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.sb.Ccommerce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		32629FD62BE0EEC800D5F50C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32629FD72BE0EEC800D5F50C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32629FD62BE0EEC800D5F50C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3257D5E02BDF6F7600E520EB /* Project object */;
 }
