@@ -28,6 +28,10 @@
 		328DD8652BEA1A6400EC9D85 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 328DD8642BEA1A6400EC9D85 /* Kingfisher */; };
 		328DD8672BEA1B6700EC9D85 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD8662BEA1B6700EC9D85 /* HomeViewModel.swift */; };
 		328DD86A2BEB367600EC9D85 /* Numeric+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD8692BEB367600EC9D85 /* Numeric+Extensions.swift */; };
+		328DD86C2BEB58DC00EC9D85 /* HomeCouponButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD86B2BEB58DC00EC9D85 /* HomeCouponButtonCollectionViewCell.swift */; };
+		328DD86E2BEB64DA00EC9D85 /* HomeSperateLineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD86D2BEB64DA00EC9D85 /* HomeSperateLineCollectionViewCell.swift */; };
+		328DD8702BEB6B8900EC9D85 /* HomeThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD86F2BEB6B8900EC9D85 /* HomeThemeCollectionViewCell.swift */; };
+		328DD8722BEB6FD200EC9D85 /* HomeThemeHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD8712BEB6FD200EC9D85 /* HomeThemeHeaderCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		328DD8612BEA162400EC9D85 /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
 		328DD8662BEA1B6700EC9D85 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		328DD8692BEB367600EC9D85 /* Numeric+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numeric+Extensions.swift"; sourceTree = "<group>"; };
+		328DD86B2BEB58DC00EC9D85 /* HomeCouponButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCouponButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		328DD86D2BEB64DA00EC9D85 /* HomeSperateLineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSperateLineCollectionViewCell.swift; sourceTree = "<group>"; };
+		328DD86F2BEB6B8900EC9D85 /* HomeThemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeThemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		328DD8712BEB6FD200EC9D85 /* HomeThemeHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeThemeHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,10 @@
 			children = (
 				323A6B422BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift */,
 				328DD85A2BE4BC9D00EC9D85 /* HomeProductCollectionViewCell.swift */,
+				328DD86B2BEB58DC00EC9D85 /* HomeCouponButtonCollectionViewCell.swift */,
+				328DD86D2BEB64DA00EC9D85 /* HomeSperateLineCollectionViewCell.swift */,
+				328DD86F2BEB6B8900EC9D85 /* HomeThemeCollectionViewCell.swift */,
+				328DD8712BEB6FD200EC9D85 /* HomeThemeHeaderCollectionReusableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -269,12 +281,16 @@
 				32629FDD2BE2261500D5F50C /* CCImages.swift in Sources */,
 				328DD85B2BE4BC9D00EC9D85 /* HomeProductCollectionViewCell.swift in Sources */,
 				3257D5EC2BDF6F7600E520EB /* AppDelegate.swift in Sources */,
+				328DD8722BEB6FD200EC9D85 /* HomeThemeHeaderCollectionReusableView.swift in Sources */,
+				328DD86C2BEB58DC00EC9D85 /* HomeCouponButtonCollectionViewCell.swift in Sources */,
 				32629FE72BE39D8C00D5F50C /* HomeViewController.swift in Sources */,
 				32629FE12BE22A1800D5F50C /* CCColor.swift in Sources */,
+				328DD86E2BEB64DA00EC9D85 /* HomeSperateLineCollectionViewCell.swift in Sources */,
 				32629FE32BE22B5000D5F50C /* CCFont.swift in Sources */,
 				328DD8672BEA1B6700EC9D85 /* HomeViewModel.swift in Sources */,
 				3257D5EE2BDF6F7600E520EB /* SceneDelegate.swift in Sources */,
 				3257D6022BDF721A00E520EB /* SplashViewController.swift in Sources */,
+				328DD8702BEB6B8900EC9D85 /* HomeThemeCollectionViewCell.swift in Sources */,
 				323A6B432BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift in Sources */,
 				328DD8622BEA162400EC9D85 /* HomeResponse.swift in Sources */,
 			);

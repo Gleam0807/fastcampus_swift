@@ -23,13 +23,13 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zGt-OW-oqk">
                                     <size key="itemSize" width="388" height="179"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="headerReferenceSize" width="50" height="50"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeBannerCollectionViewCell" id="dJM-50-ZAb" customClass="HomeBannerCollectionViewCell" customModule="Ccommerce" customModuleProvider="target">
-                                        <rect key="frame" x="2.6666666666666665" y="0.0" width="388" height="179"/>
+                                        <rect key="frame" x="2.6666666666666665" y="50" width="388" height="179"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="snz-PF-Hhd">
                                             <rect key="frame" x="0.0" y="0.0" width="388" height="179"/>
@@ -52,7 +52,7 @@
                                         </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeProductCollectionViewCell" id="YCJ-hR-Vwl" customClass="HomeProductCollectionViewCell" customModule="Ccommerce" customModuleProvider="target">
-                                        <rect key="frame" x="76.666666666666671" y="189" width="240" height="331.33333333333326"/>
+                                        <rect key="frame" x="76.666666666666671" y="239" width="240" height="331.33333333333326"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vAx-Bd-iHE">
                                             <rect key="frame" x="0.0" y="0.0" width="240" height="331.33333333333326"/>
@@ -124,7 +124,78 @@
                                             <outlet property="productTitleLabel" destination="cWm-ed-qke" id="nVz-rq-7kC"/>
                                         </connections>
                                     </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCouponButtonCollectionViewCell" id="hsF-1H-428" customClass="HomeCouponButtonCollectionViewCell" customModule="Ccommerce" customModuleProvider="target">
+                                        <rect key="frame" x="2.6666666666666665" y="580.33333333333337" width="388" height="179"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="PoR-fN-sur">
+                                            <rect key="frame" x="0.0" y="0.0" width="388" height="179"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKM-rH-PrI">
+                                                    <rect key="frame" x="182" y="82.666666666666671" width="24" height="14"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain"/>
+                                                    <connections>
+                                                        <action selector="didTapCouponButton:" destination="hsF-1H-428" eventType="touchUpInside" id="5Qd-eb-wEl"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="wKM-rH-PrI" firstAttribute="centerX" secondItem="PoR-fN-sur" secondAttribute="centerX" id="VUc-hb-Zd0"/>
+                                                <constraint firstItem="wKM-rH-PrI" firstAttribute="centerY" secondItem="PoR-fN-sur" secondAttribute="centerY" id="oca-UL-oAU"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="couponButton" destination="wKM-rH-PrI" id="lmR-ce-NiT"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeSperateLineCollectionViewCell" id="oa3-dY-KeC" customClass="HomeSperateLineCollectionViewCell" customModule="Ccommerce" customModuleProvider="target">
+                                        <rect key="frame" x="2.6666666666666665" y="769.33333333333337" width="388" height="179"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gx0-gn-9Lu">
+                                            <rect key="frame" x="0.0" y="0.0" width="388" height="179"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeThemeCollectionViewCell" id="jfR-Wh-YUu" customClass="HomeThemeCollectionViewCell" customModule="Ccommerce" customModuleProvider="target">
+                                        <rect key="frame" x="2.6666666666666665" y="958.33333333333337" width="388" height="179"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="IHA-l0-yZu">
+                                            <rect key="frame" x="0.0" y="0.0" width="388" height="179"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ImU-8l-zrq">
+                                                    <rect key="frame" x="73.333333333333343" y="24.666666666666629" width="240.00000000000003" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="themeImageView" destination="ImU-8l-zrq" id="Clz-G3-74l"/>
+                                        </connections>
+                                    </collectionViewCell>
                                 </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeThemeHeaderCollectionReusableView" id="gS0-5R-Uk5" customClass="HomeThemeHeaderCollectionReusableView" customModule="Ccommerce" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNo-SC-jMY">
+                                            <rect key="frame" x="30" y="23" width="333" height="27"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="textColor" name="bk"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="iNo-SC-jMY" secondAttribute="trailing" constant="30" id="Luc-5g-wUe"/>
+                                        <constraint firstItem="iNo-SC-jMY" firstAttribute="top" secondItem="gS0-5R-Uk5" secondAttribute="top" constant="23" id="PmO-5J-Iqs"/>
+                                        <constraint firstAttribute="bottom" secondItem="iNo-SC-jMY" secondAttribute="bottom" id="Sn8-va-MzC"/>
+                                        <constraint firstItem="iNo-SC-jMY" firstAttribute="leading" secondItem="gS0-5R-Uk5" secondAttribute="leading" constant="30" id="X2K-5A-OF4"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="themeHeaderLabel" destination="iNo-SC-jMY" id="s6r-p3-7U4"/>
+                                    </connections>
+                                </collectionReusableView>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>

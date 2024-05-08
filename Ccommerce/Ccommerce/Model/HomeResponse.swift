@@ -11,6 +11,7 @@ struct HomeResponse: Decodable {
     let banners: [Banner]
     let horizontalProducts: [Product]
     let verticalProducts: [Product]
+    let themes: [Themes]
 }
 
 struct Banner: Decodable {
@@ -25,4 +26,9 @@ struct Product: Decodable {
     let discount: String
     let originalPrice: Int
     let discountPrice: Int
+}
+
+struct Themes: Decodable {
+    let id: Int
+    let imageUrl: String
 }
