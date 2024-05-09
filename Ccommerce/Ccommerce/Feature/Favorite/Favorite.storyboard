@@ -34,8 +34,8 @@
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8DF-eD-dPN">
                                                             <rect key="frame" x="0.0" y="0.0" width="100" height="163"/>
                                                             <constraints>
+                                                                <constraint firstAttribute="height" constant="100" id="Aa3-yV-yU5"/>
                                                                 <constraint firstAttribute="width" constant="100" id="H9C-xk-cQO"/>
-                                                                <constraint firstAttribute="width" secondItem="8DF-eD-dPN" secondAttribute="height" multiplier="1:1" id="V7Z-Ku-aSK"/>
                                                             </constraints>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="ujK-Je-E6L">
