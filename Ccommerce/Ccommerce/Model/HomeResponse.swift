@@ -19,15 +19,6 @@ struct Banner: Decodable {
     let imageUrl: String
 }
 
-struct Product: Decodable {
-    let id: Int
-    let imageUrl: String
-    let title: String
-    let discount: String
-    let originalPrice: Int
-    let discountPrice: Int
-}
-
 struct Themes: Decodable {
     let id: Int
     let imageUrl: String

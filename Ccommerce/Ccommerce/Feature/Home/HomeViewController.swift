@@ -130,8 +130,8 @@ final class HomeViewController: UIViewController {
         }
         
         if let themeViewModels = viewModel.state.collectionViewModels.themeViewModels?.items {
-            snapShot.appendSections([.separateLine2])
-            snapShot.appendItems(viewModel.state.collectionViewModels.separateLine2ViewModels, toSection: .separateLine2)
+//            snapShot.appendSections([.separateLine2])
+//            snapShot.appendItems(viewModel.state.collectionViewModels.separateLine2ViewModels, toSection: .separateLine2)
             
             snapShot.appendSections([.theme])
             snapShot.appendItems(themeViewModels, toSection: .theme)
@@ -177,6 +177,13 @@ final class HomeViewController: UIViewController {
         else { return .init() }
         cell.setViewModel(viewModel)
         return cell
+    }
+    
+    @IBAction func favoriteButtonAction(_ sender: Any) {
+        let favoriteStoryboard: UIStoryboard = UIStoryboard(name: "Favorite", bundle: nil)
+        if let favoriteViewController = favoriteStoryboard.instantiateInitialViewController() {
+            navigationController?.pushViewController(favoriteViewController, animated: true)
+        }
     }
 }
 
