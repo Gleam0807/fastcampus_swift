@@ -57,6 +57,8 @@
 		328DD8A82BEDD87700EC9D85 /* PurchaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD8A72BEDD87700EC9D85 /* PurchaseViewModel.swift */; };
 		328DD8AA2BEDDD6E00EC9D85 /* PurchaseSelectedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD8A92BEDDD6E00EC9D85 /* PurchaseSelectedItemView.swift */; };
 		328DD8B12BEDEB8B00EC9D85 /* PurchaseRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD8B02BEDEB8B00EC9D85 /* PurchaseRootView.swift */; };
+		328DD8B42BF1C82400EC9D85 /* PaymentViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD8B32BF1C82400EC9D85 /* PaymentViewViewController.swift */; };
+		328DD8B62BF1C83000EC9D85 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD8B52BF1C83000EC9D85 /* PaymentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +112,8 @@
 		328DD8A72BEDD87700EC9D85 /* PurchaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewModel.swift; sourceTree = "<group>"; };
 		328DD8A92BEDDD6E00EC9D85 /* PurchaseSelectedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSelectedItemView.swift; sourceTree = "<group>"; };
 		328DD8B02BEDEB8B00EC9D85 /* PurchaseRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseRootView.swift; sourceTree = "<group>"; };
+		328DD8B32BF1C82400EC9D85 /* PaymentViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewViewController.swift; sourceTree = "<group>"; };
+		328DD8B52BF1C83000EC9D85 /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,7 @@
 		32629FE82BE3A56B00D5F50C /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				328DD8B22BF1C80500EC9D85 /* Payment */,
 				328DD8A42BEDD85A00EC9D85 /* Purchase */,
 				328DD89D2BECB10D00EC9D85 /* Option */,
 				32629FEA2BE3A58A00D5F50C /* Splash */,
@@ -325,6 +330,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		328DD8B22BF1C80500EC9D85 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				328DD8B32BF1C82400EC9D85 /* PaymentViewViewController.swift */,
+				328DD8B52BF1C83000EC9D85 /* PaymentViewModel.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -421,12 +435,14 @@
 				328DD8772BEC7F3D00EC9D85 /* FavoriteViewController.swift in Sources */,
 				328DD8A32BECB15000EC9D85 /* OptionRootView.swift in Sources */,
 				328DD8942BEC9D8500EC9D85 /* DetailPriceView.swift in Sources */,
+				328DD8B42BF1C82400EC9D85 /* PaymentViewViewController.swift in Sources */,
 				3257D5EC2BDF6F7600E520EB /* AppDelegate.swift in Sources */,
 				328DD8722BEB6FD200EC9D85 /* HomeThemeHeaderCollectionReusableView.swift in Sources */,
 				328DD8842BEC861E00EC9D85 /* FavoriteItemTableViewCell.swift in Sources */,
 				328DD8792BEC7F5D00EC9D85 /* FavoriteViewModel.swift in Sources */,
 				328DD8902BEC995300EC9D85 /* DetailRateView.swift in Sources */,
 				328DD88C2BEC93C300EC9D85 /* ProductDetailResponse.swift in Sources */,
+				328DD8B62BF1C83000EC9D85 /* PaymentViewModel.swift in Sources */,
 				328DD86C2BEB58DC00EC9D85 /* HomeCouponButtonCollectionViewCell.swift in Sources */,
 				32629FE72BE39D8C00D5F50C /* HomeViewController.swift in Sources */,
 				328DD8802BEC850F00EC9D85 /* PurchaseButton.swift in Sources */,

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Combine
 
 final class PurchaseViewModel: ObservableObject {
     enum Action {
@@ -18,6 +19,7 @@ final class PurchaseViewModel: ObservableObject {
     }
     
     @Published private(set) var state: State = State()
+    private(set) var showPaymentViewController: PassthroughSubject<Void, Never> = PassthroughSubject<Void, Never>()
     
     func process(_ action: Action) {
         switch action {
@@ -45,6 +47,6 @@ extension PurchaseViewModel {
     
     @MainActor
     private func didTapPurchaseButton() async {
-        
+        showPaymentViewController.send()
     }
 }
