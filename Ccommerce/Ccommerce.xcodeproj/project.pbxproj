@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		323A6B432BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A6B422BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift */; };
+		324409572BF1DBB800BDAA4C /* CcommerceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324409562BF1DBB800BDAA4C /* CcommerceTest.swift */; };
 		3257D5EC2BDF6F7600E520EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257D5EB2BDF6F7600E520EB /* AppDelegate.swift */; };
 		3257D5EE2BDF6F7600E520EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257D5ED2BDF6F7600E520EB /* SceneDelegate.swift */; };
 		3257D5F52BDF6F7700E520EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3257D5F42BDF6F7700E520EB /* Assets.xcassets */; };
@@ -61,9 +62,21 @@
 		328DD8B62BF1C83000EC9D85 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD8B52BF1C83000EC9D85 /* PaymentViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		324409582BF1DBB800BDAA4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3257D5E02BDF6F7600E520EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3257D5E72BDF6F7600E520EB;
+			remoteInfo = Ccommerce;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		323A6B422BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBannerCollectionViewCell.swift; sourceTree = "<group>"; };
 		3244094F2BF1D85400BDAA4C /* Ccommerce.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Ccommerce.xctestplan; path = Ccommerce/Ccommerce.xctestplan; sourceTree = SOURCE_ROOT; };
+		324409542BF1DBB800BDAA4C /* CcommerceTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CcommerceTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324409562BF1DBB800BDAA4C /* CcommerceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CcommerceTest.swift; sourceTree = "<group>"; };
 		3257D5E82BDF6F7600E520EB /* Ccommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ccommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3257D5EB2BDF6F7600E520EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3257D5ED2BDF6F7600E520EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +131,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		324409512BF1DBB800BDAA4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3257D5E52BDF6F7600E520EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,10 +150,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		324409552BF1DBB800BDAA4C /* CcommerceTest */ = {
+			isa = PBXGroup;
+			children = (
+				324409562BF1DBB800BDAA4C /* CcommerceTest.swift */,
+			);
+			path = CcommerceTest;
+			sourceTree = "<group>";
+		};
 		3257D5DF2BDF6F7600E520EB = {
 			isa = PBXGroup;
 			children = (
 				3257D5EA2BDF6F7600E520EB /* Ccommerce */,
+				324409552BF1DBB800BDAA4C /* CcommerceTest */,
 				3257D5E92BDF6F7600E520EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				3257D5E82BDF6F7600E520EB /* Ccommerce.app */,
+				324409542BF1DBB800BDAA4C /* CcommerceTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,6 +374,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		324409532BF1DBB800BDAA4C /* CcommerceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3244095A2BF1DBB800BDAA4C /* Build configuration list for PBXNativeTarget "CcommerceTest" */;
+			buildPhases = (
+				324409502BF1DBB800BDAA4C /* Sources */,
+				324409512BF1DBB800BDAA4C /* Frameworks */,
+				324409522BF1DBB800BDAA4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324409592BF1DBB800BDAA4C /* PBXTargetDependency */,
+			);
+			name = CcommerceTest;
+			productName = CcommerceTest;
+			productReference = 324409542BF1DBB800BDAA4C /* CcommerceTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3257D5E72BDF6F7600E520EB /* Ccommerce */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3257D5FC2BDF6F7700E520EB /* Build configuration list for PBXNativeTarget "Ccommerce" */;
@@ -372,9 +420,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					324409532BF1DBB800BDAA4C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3257D5E72BDF6F7600E520EB;
+					};
 					3257D5E72BDF6F7600E520EB = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -398,11 +450,19 @@
 			projectRoot = "";
 			targets = (
 				3257D5E72BDF6F7600E520EB /* Ccommerce */,
+				324409532BF1DBB800BDAA4C /* CcommerceTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		324409522BF1DBB800BDAA4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3257D5E62BDF6F7600E520EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,6 +481,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		324409502BF1DBB800BDAA4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324409572BF1DBB800BDAA4C /* CcommerceTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3257D5E42BDF6F7600E520EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -472,6 +540,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		324409592BF1DBB800BDAA4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3257D5E72BDF6F7600E520EB /* Ccommerce */;
+			targetProxy = 324409582BF1DBB800BDAA4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		3257D5F62BDF6F7700E520EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -484,6 +560,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3244095B2BF1DBB800BDAA4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SM853QWD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.sb.CcommerceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ccommerce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ccommerce";
+			};
+			name = Debug;
+		};
+		3244095C2BF1DBB800BDAA4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SM853QWD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.sb.CcommerceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ccommerce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ccommerce";
+			};
+			name = Release;
+		};
 		3257D5FA2BDF6F7700E520EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -670,6 +784,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3244095A2BF1DBB800BDAA4C /* Build configuration list for PBXNativeTarget "CcommerceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3244095B2BF1DBB800BDAA4C /* Debug */,
+				3244095C2BF1DBB800BDAA4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3257D5E32BDF6F7600E520EB /* Build configuration list for PBXProject "Ccommerce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
