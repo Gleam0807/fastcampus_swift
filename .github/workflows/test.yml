@@ -16,8 +16,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build
-      run: swift build -v
     - name: Build Xcode
       run: |
         xcodebuild clean test -project Ccommerce/Ccommerce.xcodeproj \
