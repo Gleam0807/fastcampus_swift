@@ -63,6 +63,7 @@
 
 /* Begin PBXFileReference section */
 		323A6B422BE3A973008F1E51 /* HomeBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		3244094F2BF1D85400BDAA4C /* Ccommerce.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Ccommerce.xctestplan; path = Ccommerce/Ccommerce.xctestplan; sourceTree = SOURCE_ROOT; };
 		3257D5E82BDF6F7600E520EB /* Ccommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ccommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3257D5EB2BDF6F7600E520EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3257D5ED2BDF6F7600E520EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -334,6 +335,7 @@
 			isa = PBXGroup;
 			children = (
 				328DD8B32BF1C82400EC9D85 /* PaymentViewViewController.swift */,
+				3244094F2BF1D85400BDAA4C /* Ccommerce.xctestplan */,
 				328DD8B52BF1C83000EC9D85 /* PaymentViewModel.swift */,
 			);
 			path = Payment;

@@ -1,0 +1,22 @@
+{
+  "configurations" : [
+    {
+      "id" : "E2BA9BEA-1CDA-45AB-95B9-024B432C3432",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Ccommerce.xcodeproj",
+      "identifier" : "3257D5E72BDF6F7600E520EB",
+      "name" : "Ccommerce"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}
