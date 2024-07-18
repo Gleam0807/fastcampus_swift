@@ -12,7 +12,7 @@
 > * MVVM
 > * AVFoundation
 > * Local Notification
-> * SwiftUI의 Custom ViewModifier/Animation
+> * SwiftUI의 Custom ViewModifier / Animation
  
 #### 구현 기능
 > 
