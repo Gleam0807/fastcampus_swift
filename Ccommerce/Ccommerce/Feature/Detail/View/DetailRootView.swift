@@ -119,7 +119,7 @@ struct DetailRootView: View {
                 }
             }
             .padding(.bottom, 32)
-            .frame(maxHeight: viewModel.state.more == nil ? .infinity : 200, alignment: .top)
+            .frame(maxHeight: viewModel.state.more == nil ? .infinity : 210, alignment: .top)
             .clipped()
         }
     }
