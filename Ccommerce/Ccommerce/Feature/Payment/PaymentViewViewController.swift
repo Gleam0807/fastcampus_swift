@@ -18,7 +18,7 @@ class PaymentViewViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        webView?.load(URLRequest(url: URL(string: "https://google.co.kr")!))
+        webView?.load(URLRequest(url: URL(string: "https://naver.com")!))
     }
 }
 
