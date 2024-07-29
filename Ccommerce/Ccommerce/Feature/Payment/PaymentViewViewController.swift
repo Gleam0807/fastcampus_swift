@@ -9,7 +9,7 @@ import UIKit
 import WebKit
 
 class PaymentViewViewController: UIViewController {
-    private var webView: WKWebView?
+    private var webView: WKWebView? // 결제화면은 웹뷰로 구현
 
     override func loadView() {
         webView = WKWebView()
@@ -18,7 +18,7 @@ class PaymentViewViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        webView?.load(URLRequest(url: URL(string: "https://naver.com")!))
+        webView?.load(URLRequest(url: URL(string: "https://google.co.kr")!))
     }
 }
 
